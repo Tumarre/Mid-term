@@ -2,10 +2,10 @@
 
 Día 1:
 
-Estructura de hmtl done
-index.html done
-style.css done
-contact.html done
+Estructura de hmtl done <br>
+index.html done <br>
+style.css done <br>
+contact.html done <br>
 style.css de contacts done
 
 Complicaciones:
