@@ -11,5 +11,5 @@ style.css de contacts done
 Complicaciones:
 
 -Hacer responsiva la página <br>
--Burger con media querys
+-Burger con media querys <br>
 -Css que quede perfecto
