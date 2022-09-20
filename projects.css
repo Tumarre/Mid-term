@@ -5,15 +5,33 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    margin: 0;
+    line-height: 20px;
     background-color: #f2f4fc;
+    font-family: Roboto, sans-serif;
+    color: #292e47;
+    font-size: 14px;
     line-height: 20px;
 }
 
+
+
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
     color: #292e47;
+
+}
+
+h1 {
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
 }
 
 /* -NAV BAR FIRTS MOBILE- */
@@ -81,6 +99,8 @@ header {
     overflow: hidden;
     transition: 0.5s;
     background-color: #f2f4fc;
+    font-family: Roboto, sans-serif;
+
 }
 
 .navBar.active {
@@ -125,105 +145,114 @@ header {
     color: #072ac8;
 }
 
-/* -HERO SECTION FIRTS MOBILE- */
-.heroSection {
-    padding: 0 30px;
-}
-
-.heroContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero_content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero_content h1 {
-    margin: 20px 0 30px 0;
-    font-size: 1.8em;
-    color: #292e47;
-    line-height: 130%;
-    font-weight: bold;
-}
-
-.hero_description {
-    margin-bottom: 40px;
-    font-size: 1em;
-    line-height: 160%;
-    color: #6b708d;
-    font-weight: 400;
-}
-
-.hero_buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero_buttons-touch {
-    background-color: #072ac8;
-    color: #f2f4fc;
-    font-size: 1em;
-    padding: 15px 30px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.hero_buttons-work {
-    color: #6b708d;
-    font-size: 17px;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.hero_buttons-work:hover {
-    color: #292e47;
-}
-
-.heroMain_img {
-    /* width: 560px; */
-    width: 80vw;
-    margin-top: 40px;
-}
-
-.heroCard {
-    display: none;
-}
-
-.heroLike {
-    display: none;
-}
-
-/* -LOGOS SECTION FIRTS MOBILE- */
-
-.logosSection {
-    padding: 0 30px;
-    margin-top: 50px;
-}
-
-.logosGrid {
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 60px;
-    justify-content: center;
-}
-
-.amazon {
-    display: none;
-}
-
 /* -PROJECT SECTION FIRTS MOBILE- */
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.w-richtext:after {
+    clear: both;
+}
+
+.project-detail {
+    margin-top: 70px;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.w-richtext:before,
+.w-richtext:after {
+    content: " ";
+    display: table;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+}
+
+.project-page-type {
+    color: #6b708d;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.project-completion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.project-completed {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.project-date {
+    color: #6b708d;
+    font-size: 20px;
+}
+
+.project-image-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+
+.project-type-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.project-page-title {
+    font-size: 60px;
+}
+
+.project-page-image {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.section.project {
+    margin-top: 70px;
+}
+
+.section {
+    margin-top: 0px;
+    padding: 0px 30px;
+}
+
+.container.project {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
 .projectSection {
     margin: 100px 0 100px 0;
     padding: 0 30px;
@@ -283,6 +312,8 @@ header {
 
 .text {
     margin: 20px 30px 40px 0;
+    font-family: Roboto, sans-serif;
+
 }
 
 .dataBody {
@@ -303,120 +334,7 @@ header {
     text-decoration: none;
     color: #072ac8;
     margin: 100px 0;
-}
-
-/* -OPINIONS SECTION FIRTS MOBILE- */
-.emoji1,
-.emoji2,
-.emoji3,
-.emoji4 {
-    display: none;
-}
-
-.opinionsContainer {
-    margin-bottom: 100px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.opinions {
-    background-color: #292e47;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 50px 30px;
-}
-
-.opinions_h2 {
-    color: #f2f4fc;
-    font-size: 1.8em;
-    line-height: 1.5em;
-}
-
-.opinions_text {
-    color: #ffc600;
-    max-width: 560px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 30px;
-    font-size: 24px;
-    line-height: 160%;
-    font-weight: 500;
-    text-align: center;
-}
-
-.opinions_client {
-    display: flex;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.opinions_client-info {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    margin-left: 15px;
-}
-
-.clientName {
-    color: #a2d6f9;
-    font-size: 1.06em;
-}
-
-.clientCompany {
-    color: #f2f4fc;
-}
-
-.profileImg {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-/* -OUR SERVICES SECTION FIRTS MOBILE- */
-.icon_interface {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 40px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-radius: 50%;
-    background-color: #ecf7ff;
-    background-image: url(img/services-section/1.svg);
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.icon_experience {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 40px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    border-radius: 50%;
-    background-color: #ecf7ff;
-    background-image: url(img/services-section/2.svg);
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.icon_develop {
-    width: 80px;
-    height: 80px;
-    margin-top: 40px;
-    margin-left: 40px;
-    border-radius: 50%;
-    background-color: #ecf7ff;
-    background-image: url(img/services-section/3.svg);
-    background-position: 50% 50%;
-    background-size: auto;
-    background-repeat: no-repeat;
+    font-family: Roboto, sans-serif;
 }
 
 /* -QUESTIONS SECTION FIRTS MOBILE- */
@@ -456,6 +374,8 @@ header {
     margin-right: auto;
     margin-left: auto;
     background-color: #ffc600;
+    font-family: Roboto, sans-serif;
+
 }
 
 
