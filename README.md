@@ -13,3 +13,15 @@ Complicaciones:
 -Hacer responsiva la página <br>
 -Burger con media querys <br>
 -Css que quede perfecto
+
+Día 2:
+
+-Acabar html done <br>
+-Acabar css <br>
+-Empezar JS <br>
+
+Complicaciones:
+
+-JS no sabía por donde empezar
+-JS hacer el fetch : )
+-Intentar que la página sea responsiva
