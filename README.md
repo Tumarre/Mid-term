@@ -22,6 +22,6 @@ Día 2:
 
 Complicaciones:
 
--JS no sabía por donde empezar
--JS hacer el fetch : )
+-JS no sabía por donde empezar <br>
+-JS hacer el fetch : ) <br>
 -Intentar que la página sea responsiva
