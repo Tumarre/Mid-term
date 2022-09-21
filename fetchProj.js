@@ -10,6 +10,7 @@ function getData() {
       title2 = result[1];
       title3 = result[2];
       document.querySelector("#project1").innerText = title1.title;
+      document.querySelector("#project11").innerText = title1.title;
       document.querySelector("#project2").innerText = title2.title;
       document.querySelector("#project3").innerText = title3.title;
 

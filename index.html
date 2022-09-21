@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
+  <body id="top">
     <header class="container">
       <div class="navBar_logo">
         <a href="index.html">
@@ -37,10 +37,10 @@
             <li class="navMenu_item w-nav-link">
               <a aria-current="page" href="index.html" id="active">Home</a>
             </li>
-            <li class="navMenu_item">
+            <li class="navMenu_item w-nav-link">
               <a href="projects.html">Projects</a>
             </li>
-            <li class="navMenu_item">
+            <li class="navMenu_item w-nav-link">
               <a href="#servicess">Services</a>
             </li>
           </ul>
@@ -49,7 +49,7 @@
       <a href="contact.html" class="contactUs">Contact Us</a>
     </header>
     <main>
-      <section class="heroSection container container">
+      <section class="heroSection container godown">
         <div class="heroContainer">
           <div class="hero_content">
             <h1>Empower Your Bussines With Stunning Design!</h1>
@@ -215,7 +215,7 @@
                 Circle provides you with a stunning user interface design that
                 is accessible to everyone.
               </div>
-              <a href="#" class="learnMore">learn more</a>
+              <a href="#" class="learnMore">Learn more</a>
             </div>
           </article>
           <article class="projectsArticle">
@@ -226,7 +226,7 @@
                 Circle always focuses on delivering the best user experience to
                 your customers
               </div>
-              <a href="#" class="learnMore">learn more</a>
+              <a href="#" class="learnMore">Learn more</a>
             </div>
           </article>
           <article class="projectsArticle">
@@ -237,7 +237,7 @@
                 We develop high-quality mobile and web applications using the
                 latest technology stack.
               </div>
-              <a href="#" class="learnMore">learn more</a>
+              <a href="#" class="learnMore">Learn more</a>
             </div>
           </article>
         </div>
@@ -290,12 +290,16 @@
     <footer class="footSection">
       <section class="footContainer">
         <artcle class="footContent">
-          <img src="img/logos/circle.svg" alt="logo circle" />
+          <p>click ↑</p>
+          <a href="#top">
+            <img src="img/logos/circle.svg" alt="logo circle" />
+          </a>
           <address>2972 Westheimer Rd.Santa Ana, Illinois 85486</address>
+          <address>© 2022 por Marc Gonzalez</address>
         </artcle>
         <article class="footLinks">
           <a href="#">Team</a>
-          <a href="#">Service</a>
+          <a href="#servicess">Service</a>
           <a href="#">About Us</a>
           <a href="#">Press</a>
           <a href="projects.html">Projects</a>
