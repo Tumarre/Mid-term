@@ -77,21 +77,23 @@ header {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: #292e47;
+    background-color: transparent;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
 
 .burger.active .bar:nth-child(2) {
-    opacity: 0;
+    opacity: 1;
+    transform: translateY(-8px) rotate(360deg);
+
 }
 
 .burger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    opacity: 0;
 }
 
 .burger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    opacity: 0;
 }
 
 .navBar {
@@ -533,6 +535,17 @@ p {
     .opinions_h2 {
         font-size: 1.69em;
     }
+
+    .questions {
+        width: 90%;
+    }
+
+    .projectsArticles {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: auto auto;
+        margin-top: 80px;
+    }
 }
 
 /* -- */
@@ -542,6 +555,18 @@ p {
         grid-column-gap: 100px;
         grid-row-gap: 60px;
     }
+
+    .questions {
+        width: 90%;
+    }
+
+    .projectsArticles {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: auto auto;
+        margin-top: 80px;
+    }
+
 }
 
 /* -- */
@@ -574,6 +599,18 @@ p {
     .inputEmail {
         width: 400px;
     }
+
+    .questions {
+        width: 90%;
+    }
+
+    .projectsArticles {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: auto auto;
+        margin-top: 80px;
+    }
+
 }
 
 /* -- */
@@ -729,6 +766,10 @@ p {
         align-self: flex-start;
         row-gap: 50px;
     }
+
+    .questions {
+        width: 90%;
+    }
 }
 
 /* -- */
@@ -855,6 +896,10 @@ p {
 
     .footContent {
         width: 30%;
+    }
+
+    .questions {
+        width: 90%;
     }
 }
 

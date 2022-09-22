@@ -15,8 +15,8 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/jpg" href="img/logos/circle.svg" />
     <!-- STYLES -->
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="formssss.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body id="top">
     <header class="container">
@@ -28,9 +28,23 @@
 
       <nav>
         <div class="burger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+          <span class="bar"
+            ><img src="top.png" alt="burger" width="100%" class="burgerrrr"
+          /></span>
+          <span class="bar">
+            <img
+              src="BeBurger-steak2-removebg-preview.png"
+              alt="burger"
+              width="100%"
+            />
+          </span>
+          <span class="bar">
+            <img
+              src="topburger-removebg-preview.png"
+              alt="burger"
+              width="100%"
+            />
+          </span>
         </div>
 
         <div class="navBar container">
@@ -39,10 +53,10 @@
               <a href="index.html">Home</a>
             </li>
             <li class="navMenu_item">
-              <a href="index.html#recentpr">Projects</a>
+              <a href="projects.html?1">Projects</a>
             </li>
             <li class="navMenu_item">
-              <a href="#">Services</a>
+              <a href="index.html#servicess">Services</a>
             </li>
           </ul>
         </div>
@@ -55,12 +69,9 @@
         <div>
           <form
             id="post_info-form"
-            name="post_info-form"
-            data-name="Email Form"
             method="post"
             class="contact_form"
-            aria-label="Email Form"
-            action="/action_page.php"
+            action="/some-url"
             target="_blank"
           >
             <div class="label_input_wraper name">
@@ -70,10 +81,9 @@
                 class="contact_text-field"
                 maxlength="256"
                 name="name"
-                data-name="Name"
                 placeholder="Enter your full name"
                 id="name"
-                required=""
+                required
               />
             </div>
             <div class="label_input_wraper email">
@@ -82,8 +92,6 @@
                 type="email"
                 class="contact_text-field"
                 maxlength="256"
-                name="email"
-                data-name="Name 2"
                 placeholder="Enter your email"
                 id="email"
               />
@@ -95,9 +103,9 @@
                 class="contact_text-field"
                 maxlength="256"
                 name="phone"
-                data-name="Name 3"
                 placeholder="Enter your phone"
                 id="phone"
+                required
               />
             </div>
             <div class="label_input_wraper message">
@@ -107,8 +115,7 @@
                 maxlength="5000"
                 id="field"
                 name="field"
-                required=""
-                data-name="field"
+                required
                 class="contact_text-field textTarea_field"
               ></textarea>
             </div>

@@ -49,26 +49,33 @@ header {
     cursor: pointer;
 }
 
+.burger span img {
+    position: relative;
+    top: -10px;
+}
+
 .burger span {
     display: inherit;
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: #292e47;
+    background-color: transparent;
     transition: all 0.4s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
 }
 
 .burger.active .bar:nth-child(2) {
-    opacity: 0;
+    opacity: 1;
+    transform: translateY(-8px) rotate(360deg);
+
 }
 
 .burger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    opacity: 0;
 }
 
 .burger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    opacity: 0;
 }
 
 .navBar {
@@ -608,6 +615,14 @@ header {
     .opinions_h2 {
         font-size: 1.69em;
     }
+
+    .projectsArticles {
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: auto auto;
+        margin-top: 80px;
+    }
+
 }
 
 /* -- */
@@ -616,6 +631,10 @@ header {
     .logosGrid {
         grid-column-gap: 100px;
         grid-row-gap: 60px;
+    }
+
+    .questions {
+        width: 90%;
     }
 }
 
@@ -990,6 +1009,17 @@ header {
         width: 85%;
         margin: auto;
         padding: 200px 120px 100px;
+    }
+
+    .opinionsContainer {
+        margin-bottom: 100px;
+        margin-left: 0;
+        margin-right: 10%;
+        width: 100%;
+    }
+
+    .footContent {
+        width: 40%;
     }
 }
 

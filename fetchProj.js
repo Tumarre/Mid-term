@@ -61,7 +61,7 @@ function getData2() {
           class="projectImg"
         />
         <div class="project_text">
-          <h3 class="dataTitle" id="project1">${data.title}</h3>
+          <h3 class="dataTitle" id="project1">${data.title.slice(0, 28)}</h3>
           <div class="text dataBody" id="body1">
           ${data.body}
           </div>
