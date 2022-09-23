@@ -68,7 +68,7 @@
         <h1>Contact Us</h1>
         <div>
           <form
-            id="post_info-form"
+            id="post-info-form"
             method="post"
             class="contact_form"
             action="/some-url"
@@ -87,17 +87,18 @@
               />
             </div>
             <div class="label_input_wraper email">
-              <label for="email" class="contact-title">Email</label>
+              <label for="email" class="contact-title">Email *</label>
               <input
                 type="email"
                 class="contact_text-field"
                 maxlength="256"
                 placeholder="Enter your email"
                 id="email"
+                required
               />
             </div>
             <div class="label_input_wraper phone">
-              <label for="phone" class="contact-title">Phone</label
+              <label for="phone" class="contact-title">Phone *</label
               ><input
                 type="tel"
                 class="contact_text-field"
@@ -159,7 +160,7 @@
         </article>
       </section>
     </footer>
-    <script src="javascript/burguer.js"></script>
-    <script src="formSending.js"></script>
+    <script src="burger.js"></script>
+    <script src="fromSending.js"></script>
   </body>
 </html>

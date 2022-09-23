@@ -1,10 +1,10 @@
-document.querySelector("#post_info-form").addEventListener("submit", addPost);
+document.querySelector("#post-info-form").addEventListener("submit", addPost);
 
 const url = "https://jsonplaceholder.typicode.com/comments";
+console.log('hey');
 
 function addPost(preventForm) {
   preventForm.preventDefault();
-
   // Apuntar a todos los inputs que necesitamos
   let name = document.querySelector("#name").value;
   let email = document.querySelector("#email").value;
